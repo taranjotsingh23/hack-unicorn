@@ -14,16 +14,16 @@ function JoinTeam({placeholder, formLink, content}) {
 }
 
 function Member({info}) {
-  const {github, role, Name, img, linkedin} = info;
+  const {role, Name, img, linkedin} = info;
   return (
     <div className="member">
-      <img src={img} alt="DUHacks"></img>
+      <img src={img} alt="Hack Unicorn"></img>
       <div className="members-link">
         <h3>{Name}</h3>
         <p>{role}</p>
-        <a href={github} rel="noreferrer" target="_blank">
+        {/* <a href={github} rel="noreferrer" target="_blank">
           <i class="fab fa-2x fa-github"></i>
-        </a>
+        </a> */}
         <a href={linkedin} rel="noreferrer" target="_blank">
           <i class="fab fa-2x fa-linkedin"></i>
         </a>

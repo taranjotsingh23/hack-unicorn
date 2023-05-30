@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { HashLink as Link } from "react-router-hash-link";
 import hamLogo from "./ham.svg";
 import logoClose from "./ham-c.svg";
-import mainlogo from "./LOGO.png";
+import mainlogo from "./img.png";
 import styled from "styled-components";
 import "./styles.scss";
 
@@ -114,6 +114,11 @@ const NAVBAR = () => {
               <li className="liw list--general">
                 <Link to={`#sponsors`}>
                   <span className="links">Sponsors </span>{" "}
+                </Link>
+              </li>
+              <li className="liw list--general">
+                <Link to={`#speakers`}>
+                  <span className="links">Speakers </span>{" "}
                 </Link>
               </li>
               <li className="liw list--general">

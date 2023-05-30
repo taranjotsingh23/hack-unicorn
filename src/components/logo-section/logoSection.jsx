@@ -3,7 +3,7 @@ import './logoSection.css';
 // import sym from './sym.png';
 
 // import logo1 from './logo4.png';
-import mainlogo from './LOGO.png';
+import mainlogo from './HACK_Unicorn_Logo-modified.png';
 // import logo3 from './logo3.png';
 
 import {MIDDLE_SECTION} from '../../Module/General';
