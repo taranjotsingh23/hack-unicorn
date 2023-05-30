@@ -15,6 +15,9 @@ import ayonroy from "./Assets/teami/ayonroy.jfif";
 import poojagera from "./Assets/teami/poojagera1.JPG";
 import ayush from "./Assets/teami/Ayush_Rudani.jpg";
 
+import jai from "./Assets/teami/jaisadana.jpg";
+import kundan from "./Assets/teami/kundansingh.jpeg";
+
 import taranjot from "./Assets/teami/taranjotsingh.png";
 import harpreet from "./Assets/teami/harpreetsingh.jpg";
 import ripu from "./Assets/teami/ripudamansingh.png";
@@ -28,13 +31,6 @@ import harsh from "./Assets/teami/harshvardhanrana.jpg";
 import mahak from "./Assets/teami/mahakkaur.jpg";
 import pulkit from "./Assets/teami/pulkitchauhan.jfif";
 import virat from "./Assets/teami/viratchauhan.jpg";
-
-
-
-
-
-
-
 
 
 const TOP_SECTION = {
@@ -63,129 +59,6 @@ const MIDDLE_SECTION = {
   LOGO_EFFECT: true,
   LOGO: ""
 };
-
-const FOOTER = {
-  VOLUNTEERING_FORM: {
-    required: true,
-    src: "#Volunteer form link"
-  },
-  JOIN_TEAM: {
-    required: true,
-    src: "#Join team link"
-  },
-  Privacy_policy: {
-    required: true,
-    src: ""
-  },
-  Terms_of_use: {
-    required: true,
-    src: ""
-  }
-};
-
-const calenderStartingDate = {
-  month: 7,
-  year: 2022
-}
-
-
-const schedule = [
-  {
-    "day": "16-7-2022",
-    "events": [
-      {
-        "title": "Opening Ceremoney",
-        "timings": "8 AM - 9 AM",
-        "link": "https://google.com"
-      }
-    ]
-  },
-  {
-    "day": "16-7-2022",
-    "events": [
-      {
-        "title": "Event",
-        "timings": "11 AM - 12 PM",
-        "link": "https://google.com"
-      }
-    ]
-  },
-  {
-    "day": "16-7-2022",
-    "events": [
-      {
-        "title": "Event",
-        "timings": "12 AM - 1 Pm",
-        "link": "https://google.com"
-      }
-    ]
-  },
-  {
-    "day": "17-7-2022",
-    "events": [
-      {
-        "title": "Event",
-        "timings": "12 AM - 1 Pm",
-        "link": "https://google.com"
-      }
-    ]
-  },
-  {
-    "day": "17-7-2022",
-    "events": [
-      {
-        "title": "Closing Ceremoney",
-        "timings": "6 PM - 7 PM",
-        "link": "https://google.com"
-      }
-    ]
-  },
-]
-
-const Prizeinfo = [
-  [
-    //Array 1
-    {
-      icon: <i className="first fas fa-4x fa-trophy"></i>,
-      type: "Overall First",
-      content:
-        "The first overall prize will be given to a project that outstands all other submissions."
-    },
-    {
-      icon: <i className=" second fas fa-4x fa-medal"></i>,
-      type: "Overall Second",
-      content:
-        "The second overall prize will be given to the second-best project in the hackathon."
-    },
-    {
-      icon: <i className=" third fas fa-4x fa-skiing-nordic"></i>,
-      type: "Overall Third",
-      content:
-        "The third overall prize will be given to the third-best project in the hackathon."
-    }
-  ],
-  [
-    //Array 2
-    {
-      icon: <i className="first fas fa-4x fa-trophy"></i>,
-      type: " Best Women Team",
-      content: "Your project will qualify for this category if your all team members are women."
-    },
-    {
-      icon: <i className="first fas fa-4x fa-trophy"></i>,
-      type: "Best DDU Team",
-      content: "Your project will qualify for this category if your all team members are from DDU."
-    },
-    {
-      icon: <i className="fas fa-user-friends seventh fa-3x "></i>,
-      type: "More prizes",
-      content: "More prizes will be revealed later"
-    }
-  ],
-  [
-    //Array 3
-  ]
-];
 
 const TeamInfo = [
   [
@@ -290,13 +163,13 @@ const SpeakersInfo = [
       Name: "Jai Sadana",
       role: "Community Manager | NFT | Building DAO | Creator Social Community | Quine Ambassador",
       linkedin: "https://www.linkedin.com/in/jaisadana/",
-      img: me
+      img: jai
     },
     {
       Name: "Kundan Singh",
       role: "Crypto Enthusiast | Community Manager | DAO Developer | Blockchain Expert | DEX Developer",
       linkedin: "https://www.linkedin.com/in/kundansinghweb3/",
-      img: ayush
+      img: kundan
     },
     {
       Name: "Vanshika Garg",
@@ -328,83 +201,18 @@ const SpeakersInfo = [
   ]
 ];
 
-const JudgesInfo = [
-  [
-    // Array 1
-    {
-      Name: "Rehan",
-      role: "Organizer",
-      github: "",
-      linkedin: "",
-      img: me
-    },
-    {
-      Name: "Moon",
-      role: "Manager",
-      github: "",
-      linkedin: "",
-      img: me
-    },
-    {
-      Name: "Ryah Garcia",
-      role: "Organizer",
-      github: "",
-      linkedin: "",
-      img: me
-    }
-  ],
-  [
-    // Array 2
-    {
-      Name: "Lyanola",
-      role: "Organizer",
-      github: "",
-      linkedin: "",
-      img: me
-    },
-    {
-      Name: "Zoheb",
-      role: "Organizer",
-      github: "",
-      linkedin: "",
-      img: me
-    }
-  ]
-];
-
-const sponsorLogos = [
-  // [{ src: cfc }, { src: sublime }, { src: echoAR }], //Array 1
-  // [{ src: taskade }, { src: Replit }, { src: qoom }], //Array 2
-  // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
-  // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
-
-];
 
 const titlesponsorLogos = [
   [{ src: devfolio, link: "https://devfolio.co/" }, { src: polygon, link: "https://polygon.technology/" }, { src: filecoin, link: "https://filecoin.io/" }], //Array 1
-  // [{ src: taskade }, { src: Replit }, { src: qoom }], //Array 2
-  // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
-  // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
-
 ];
 
 const goldsponsorLogos = [
-  // [  ], //Array 1
   [{ src: replit, link: "https://replit.com/" }, { src: solana, link: "https://solana.com/" }, { src: zetapass, link: "https://linktr.ee/zetapass" }], //Array 2
-  // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
-  // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
-
 ];
 
 const silversponsorLogos = [
   [{ src: quine, link: "https://quine.sh/" }, { src: frienducation, link: "https://frienducation.in/" }], //Array 1
-  // [{ src: taskade }, { src: Replit }, { src: qoom }], //Array 2
-  // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
-  // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
-
 ];
-
-
 
 
 const frequentlyAskedQuestions = [
@@ -456,15 +264,10 @@ export {
   TOP_SECTION,
   MIDDLE_SECTION,
   SOCIALS,
-  FOOTER,
-  Prizeinfo,
-  sponsorLogos,
   titlesponsorLogos,
   goldsponsorLogos,
   silversponsorLogos,
   TeamInfo,
   SpeakersInfo,
-  frequentlyAskedQuestions,
-  schedule,
-  calenderStartingDate,
+  frequentlyAskedQuestions
 };

@@ -30,7 +30,6 @@ footer .content .top{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* margin-bottom: 50px; */
 }
 .content .top .logo-details{
   color: black;
@@ -98,36 +97,7 @@ footer .content .link-boxes .box1{
 .content .link-boxes .input-box1{
   margin-right: 55px;
 }
-/* .link-boxes .input-box1 input{
-  height: 40px;
-  width: calc(100% + 55px);
-  outline: none;
-  border: 2px solid #AFAFB6;
-  background: #140B5C;
-  border-radius: 4px;
-  padding: 0 15px;
-  font-size: 15px;
-  color: #fff;
-  margin-top: 5px;
-}
-.link-boxes .input-box1 input::placeholder{
-  color: #AFAFB6;
-  font-size: 16px;
-}
-.link-boxes .input-box1 input[type="button"]{
-  background: #fff;
-  color: #140B5C;
-  border: none;
-  font-size: 18px;
-  font-weight: 500;
-  margin: 4px 0;
-  opacity: 0.8;
-  cursor: pointer;
-  transition: all 0.4s ease;
-}
-.input-box1 input[type="button"]:hover{
-  opacity: 1;
-} */
+
 footer .bottom-details{
   width: 100%;
   background: #0F0844;

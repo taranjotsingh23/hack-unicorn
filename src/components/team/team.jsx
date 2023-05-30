@@ -21,9 +21,6 @@ function Member({info}) {
       <div className="members-link">
         <h3>{Name}</h3>
         <p>{role}</p>
-        {/* <a href={github} rel="noreferrer" target="_blank">
-          <i class="fab fa-2x fa-github"></i>
-        </a> */}
         <a href={linkedin} rel="noreferrer" target="_blank">
           <i class="fab fa-2x fa-linkedin"></i>
         </a>

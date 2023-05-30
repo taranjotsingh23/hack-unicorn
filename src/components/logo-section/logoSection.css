@@ -16,7 +16,6 @@
 
 }
 .Logo{
-    /* width: 60%; */
     width: 35rem;
 }
 
@@ -98,7 +97,6 @@ transition: 0.4s;
     .logoS{
       margin-top: 10rem;
       margin-bottom: -10rem;
-      /* background-color: black; */
       display: contents;
     }
     .Logo{

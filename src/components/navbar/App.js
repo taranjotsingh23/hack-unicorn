@@ -43,19 +43,6 @@ const NAVBAR = () => {
 
   const navigation = useRef();
 
-  // const listenScrollEvent = e => {
-  //   if (window.scrollY > 800) {
-  //     setColor("rgba(57, 174, 247)");
-  //   } else {
-  //     setColor("#121930");
-  //   }
-  // };
-
-  // useEffect(() => {
-  //   window.addEventListener("scroll", listenScrollEvent);
-  //   console.log(navigation);
-  // }, []);
-
   const handleOutsideCick = (event, ref) => {
     if (!ref.current.contains(event.target)) {
       setToggle(true);
@@ -157,17 +144,5 @@ const NAVBAR = () => {
     </Router>
   );
 };
-
-// function Projects() {
-//   return <h2>Projects here</h2>;
-// }
-
-// function Contact() {
-//   return <h2>contact info</h2>;
-// }
-
-// function Links() {
-//   return <h2>Home</h2>;
-// }
 
 export default NAVBAR;

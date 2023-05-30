@@ -1,10 +1,6 @@
-  import React from 'react';
+import React from 'react';
 import './logoSection.css';
-// import sym from './sym.png';
-
-// import logo1 from './logo4.png';
 import mainlogo from './HACK_Unicorn_Logo-modified.png';
-// import logo3 from './logo3.png';
 
 import {MIDDLE_SECTION} from '../../Module/General';
 
@@ -28,8 +24,6 @@ function Logo() {
   } else {
     myLogo = (
       <div className="logoS">
-        {/*<img className="Logo sym" src={sym} alt="DUHacks" />
-        <img className="Logo logo1" src={logo1} alt="DUHacks" />*/}
       </div>
     );
   }

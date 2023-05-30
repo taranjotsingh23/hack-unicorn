@@ -8,8 +8,6 @@ import { Logo, LogoSectionAbout } from "../logo-section/logoSection.jsx";
 import { FirstPrize, PrizeHeading } from "../prize tracks/prizes.jsx";
 import { Prizeinfo } from "../../Module/General";
 import { Accordion } from "../FAQ/faq.jsx";
-// import {theme} from "../themes_test/theme.jsx";
-// import {Sponsor, SponsorsHead, SponsorUS} from "../Sponsors/sponsors.jsx";
 import { Sponsor, SponsorsHead } from "../Sponsors/sponsors.jsx";
 import Footer from "../Footer/footer";
 import { Member } from "../team/team.jsx";
@@ -145,13 +143,6 @@ export default function HomePage(props) {
               <br />
             </Col>
           </Row>
-
-
-          {/*          <Row className="mediaInfo">
-            <Col className="" sm={12} lg={12} md={12}>
-              <Media />
-            </Col>
-          </Row>*/}
         </Container>
       </div>
       <Container fluid>
@@ -200,23 +191,8 @@ export default function HomePage(props) {
             <h4><b>Prizes worth Rs. 20,000  +</b><br /><b>Trophy  +</b><b> Winning Certificates</b><br /><br /><a href="https://hackunicorn.devfolio.co/#prizes">Load More</a></h4>
           </div>
         </div>
-        {/*      <div class="row2-container">
-        <div class="box orange">
-          <h2>Karma</h2>
-          <p>Regularly evaluates our talent to ensure quality</p>
-          <img class="imgright" src="https://assets.codepen.io/2301174/icon-karma.svg" alt="" />
-        </div>
-      </div>*/}
-        <div class="row1-container margfromsponsor">
-          {/* <div class="box box-down color2">
-            <h2>Best Women Team</h2><img class="imgright" src="https://img.icons8.com/cute-clipart/64/000000/granny-lesbian.png" alt="" />
-            <h4><b>Prize</b>: Rs. 1500 <br />Swags & Promo Codes<br /><br /><a href="https://duhacks.devfolio.co/#prizes">Load More</a></h4>
-          </div>
 
-          <div class="box color1">
-            <h2>Best DDU Team</h2><img class="imgright" src="https://img.icons8.com/emoji/96/000000/sports-medal-emoji.png" alt="" />
-            <h4><b>Prize</b>: Rs. 1500 <br />Swags & Promo Codes<br /><br /><a href="https://duhacks.devfolio.co/#prizes">Load More</a></h4>
-          </div> */}
+        <div class="row1-container margfromsponsor">
 
           <div class="box box-down orange">
             <h2>All Participants</h2><img class="imgright" src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/000000/external-prizes-circus-flaticons-lineal-color-flat-icons.png" alt="" />
@@ -224,53 +200,20 @@ export default function HomePage(props) {
           </div>
         </div>
 
-         
-
-
         <center>
-
-          
         </center>
-        {/*Theme end*/}
-
-        {/* <Birds top="100vh" left="0vh" type="" /> */}
-
-        {/* *******Prizes here ***** */}
-        {/*        <Row className="prizesection" id="prizes">
-          <PrizeHeading type="Prizes" /><br/>
-          <div className="prize--cards">
-          {Prizeinfo.map(PrizeGroup)}
-          </div>
-        </Row>*/}
-        {/* ********Prizes ending here ***** */}
-
-
-        {/* ********Sponsors here ***** */}
 
         <Row className="sponsorSection" id="sponsors">
           <SponsorsHead />
-          {/* <h1 className="">Title Sponsors</h1> */}
           <br />
           {titlesponsorLogos.map(SponsorGroup)}
-          {/* <br /><br /> */}
-          {/* <h1 className="">Gold Sponsors</h1> */}
           <br />
           {goldsponsorLogos.map(SponsorGroup)}
-          {/* <br /><br /> */}
-          {/* <h1 className="">Silver Sponsors</h1> */}
           <br />
           {silversponsorLogos.map(SponsorGroup)}
           <br /><br />
           
         </Row>
-        {/* ********Sponsors ending here ***** */}
-
-
-        {/* ********Team here ***** */}
-        {/* <h1 id="team">Mentor</h1>
-
-
-        {JudgesInfo.map(TeamMembers)} */}
 
         <h1 id="speakers">The Speakers</h1>
         {SpeakersInfo.map(TeamMembers)}
@@ -279,13 +222,10 @@ export default function HomePage(props) {
         <h1 id="teams">Our Team</h1>
         {TeamInfo.map(TeamMembers)}
 
-        {/* ********Team ending here ***** */}
         <br />
         <h1 id="faqs">FAQs</h1>
-        {/* ********Frequently asked Questions here ***** */}
         <div className="Myfaqs">
           {frequentlyAskedQuestions.map(FrequentlyAsked)}
-          {/* ********Frequently asked Questions ending here ***** */}
         </div>
       </Container>
       <br />
@@ -293,14 +233,11 @@ export default function HomePage(props) {
         class="apply-button"
         data-hackathon-slug="hackunicorn"
         data-button-theme="light"
-      // style="height: 44px; width: 312px"
       ></div></center>
 
       <Footer />
       <div class="backtotop" id="back-to-up"><a onClick={scrollToTop}><p><i class="fa-solid fa-arrow-up"></i></p></a></div>
     </div >
   );
-
-
 
 }

@@ -16,8 +16,6 @@ function TimeLine() {
           <span class="title">Start of Registrations</span>
           <span>10th May 2023</span>
         </div>
-        {/*<p className="timeline_text" style={{fontSize: "14px"}}>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores, sint eos vero sapiente voluptas debitis dicta dolore.</p>
-        */}
       </section>
     </div>
     <div class="row row-2">
@@ -27,8 +25,6 @@ function TimeLine() {
           <span class="title">End of Registrations</span>
           <span>10th June 2023</span>
         </div>
-        {/*<p  className="timeline_text" style={{fontSize: "14px"}}>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores, sint eos vero sapiente voluptas debitis dicta dolore.</p>
-       */}
       </section>
     </div>
     <div class="row row-1">

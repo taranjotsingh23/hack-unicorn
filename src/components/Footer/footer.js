@@ -1,35 +1,8 @@
 import React, {useEffect, useState} from "react";
 import "./footer.scss";
-// import Insta from "./icons8-instagram.svg";
-// import Dis from "./icons8-discord.svg";
-// import Linked from "./icons8-linkedin-2.svg";
-// import Mail from "./icons8-mail.svg";
-// import DevPost from "./icons8-dev-post.svg";
-// import PrivacyPolicy from "./Privacy policy.pdf";
-// import TermsOfUse from "./Terms of use.pdf";
-// import Twitter from "./icons8-twitter.svg";
-// import {Btn} from "../Top-division-components/Top-division-components.jsx";
 import logo from "../navbar/HACK_Unicorn_Logo-modified.png";
 import huclogo from "../navbar/huc_logo.png";
-import dsc from "./dsc.png";
-// import cross from "./cross.svg";
 import {SOCIALS, FOOTER} from "../../Module/General";
-
-// function GithubTemplate({hideTemplate}) {
-//   return (
-//     <div className="template">
-//       <div className="template-left">
-//         <p>
-//           Join us to{" "}
-//           <a href={TOP_SECTION.HACKERS_REGISTRATION_FORM_LINK}>Gear Up</a>,
-//           where we will be hosting PUBLIC workshops, tech talks, panel
-//           discussions, and career sessions!
-//         </p>
-//       </div>
-//       <img alt="img" onClick={hideTemplate} src={cross} />
-//     </div>
-//   );
-// }
 
 export default function Footer() {
   const [template, setTemplate] = useState(false);
@@ -70,7 +43,6 @@ export default function Footer() {
       </div>
       <div class="link-boxes">
         <ul class="box1 input-box1">
-          {/*<li class="link_name">Subscribe</li>*/}
           <img src={huclogo} className="imgfooterhuc" />
         </ul>
       </div>
